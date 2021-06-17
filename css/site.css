@@ -1,0 +1,29 @@
+html,
+body,
+main {
+  height: 100%;
+}
+
+:root {
+  font-size: 16px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+body {
+  margin: 0;
+  font-size: 100%;
+}
+
+h1 {
+  letter-spacing: .6rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: #FFF;
+  background: linear-gradient(-120deg, #021B79, #0575E6, #205E9B);
+}
